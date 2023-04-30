@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Nama Panggilan Kamu"
+        android:textColor="#202020"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="337dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#bababb"
+        android:ems="10"
+        android:hint="Contoh : Budi"
+        android:inputType="textPersonName"
+        android:textColorHint="#bababb"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Umur Kamu"
+        android:textColor="#202020"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="337dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#bababb"
+        android:ems="10"
+        android:hint="Contoh : 10"
+        android:inputType="textPersonName"
+        android:textColor="#202020"
+        android:textColorHint="#bababb"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/BtnBiodataNext"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textColor="#202020"
+        app:backgroundTint="#ffc50d"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
